@@ -25,6 +25,7 @@ requirements:
     - python >=3.8
     - qtpy
     - deprecated
+    - matplotlib
 
 test:
   imports:
