@@ -1,5 +1,5 @@
 {% set name = "nap-plot-tools" %}
-{% set version = "0.0.4" %}
+{% set version = "0.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/nap-plot-tools-{{ version }}.tar.gz
-  sha256: db21328868cf5f12fffb5b887034f221e6a7cd8bf3fac71053b82fea90e0512d
+  sha256: 0091638c0aec8d7e62e675b1fdbd0bc2dcabca5fb8cf22d20c1f91e4da4d31ec
 
 build:
   noarch: python
